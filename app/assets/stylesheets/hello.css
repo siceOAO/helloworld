@@ -35,6 +35,20 @@ body {
 .heart {
   color: #ff0000;
 }
-.small {
-  font-size: 0.75rem;
+
+@keyframes fontSizeAnimation {
+  0% {
+    font-size: 3rem;
+  }
+  50% {
+    font-size: 4.6rem;
+  }
+  100% {
+    font-size: 3rem;
+  }
+}
+
+.hw {
+  animation: fontSizeAnimation 6s infinite;
+  animation-delay: 2s;
 }
